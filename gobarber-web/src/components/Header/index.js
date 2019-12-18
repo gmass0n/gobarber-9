@@ -32,7 +32,7 @@ export default function Header() {
 
             <img
               src={
-                profile.avatar.url ||
+                profile.avatar_id ||
                 'https://api.adorable.io/avatars/50/abott@adorable.png'
               }
               alt="Gabriel Masson"
